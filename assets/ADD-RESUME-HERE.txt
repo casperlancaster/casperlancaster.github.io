@@ -1,0 +1,1 @@
+Export your résumé as a PDF, name it student-resume.pdf, and place it in this folder.
