@@ -3,3 +3,5 @@ Thumbs.db
 .vscode/
 .obsidian/
 .obsidian
+# Visual Studio temporary workspace
+.vs/

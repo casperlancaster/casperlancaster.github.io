@@ -27,7 +27,7 @@
     window.matchMedia('(min-width: 901px)').addEventListener('change', closeMenu);
   }
   if ('IntersectionObserver' in window) {
-    const navTargets = links.map(link => document.querySelector(link.getAttribute('href'))).filter(Boolean);
+    const navTargets = links.map(link => { const href = link.getAttribute('href'); return href && href.startsWith('#') ? document.querySelector(href) : null; }).filter(Boolean);
     const observer = new IntersectionObserver(entries => {
       for (const entry of entries) {
         if (entry.isIntersecting) {
