@@ -31,3 +31,34 @@
 @media(max-width:760px){.case-grid{grid-template-columns:1fr}.case-visual{height:190px}.work-strengths{grid-template-columns:1fr}.work-strengths>div{padding:18px 22px}.work-strengths>div+div{border-left:0;border-top:1px solid #293738}.work-more-grid{grid-template-columns:1fr}.work-more-grid article{min-height:0}.work-final{align-items:start;flex-direction:column}.work-final .cyber-button{width:100%}.work-hero h1{font-size:clamp(55px,11vw,90px)}.work-hero-lead{font-size:17px}}
 @media(max-width:540px){.work-hero-grid{padding-top:40px;padding-bottom:52px}.work-hero h1{font-size:clamp(49px,12.2vw,70px)}.work-eyebrow{font-size:9px;letter-spacing:1.4px;margin-bottom:17px}.work-hero-lead{font-size:15px}.work-hero-detail{font-size:12px}.work-hero-actions{flex-direction:column;align-items:stretch}.work-hero-actions .cyber-button{width:100%}.work-system-body{grid-template-columns:28px 1fr;min-height:220px}.sys-rail{padding:17px 9px}.sys-rail span{width:8px;height:8px}.sys-content{padding:14px 12px}.sys-topline{font-size:8px}.sys-bars{height:56px;margin:15px 0}.sys-modules{gap:4px}.sys-modules>div{padding:7px 5px}.sys-modules b{font-size:8px;margin-bottom:4px}.sys-modules strong{font-size:9px}.sys-modules small{font-size:6px}.sys-bottom{margin-top:12px}.sys-terminal{font-size:8px}.sys-indicator{font-size:7px}.work-illustration-note{font-size:6px;bottom:-20px}.work-section{padding-top:44px}.work-section-heading h2{font-size:43px}.case-visual{height:155px}.visual-layout{top:34px;height:103px}.visual-main{padding:8px}.visual-banner{height:23px}.visual-tiles span{height:25px}.visual-menu{padding:9px 6px;gap:6px}.visual-code{font-size:8px;top:12px;left:15px}.visual-corner{left:15px;bottom:10px;font-size:8px}.visual-watermark{font-size:96px}.case-content{padding:19px 17px}.case-content h3{font-size:33px}.case-summary{font-size:12px}.case-meta{font-size:8px}.case-links a{font-size:10px}.work-toolbelt{padding:21px}.toolbelt-tags span{font-size:9px;padding:9px 10px}.work-final{padding:22px}.web-work-promo{padding:22px 18px}.web-work-promo .cyber-button{width:100%}}
 @media(prefers-reduced-motion:reduce){.work-system{transform:none}}
+
+
+/* PHASE 3 — VERIFIED PUBLISHED WORK + SCREENSHOT-READY CARDS */
+.case-cabdem .case-visual{background:radial-gradient(ellipse at 82% 24%,#a51c3345,transparent 54%),linear-gradient(115deg,#0a1118,#172325)}
+.case-cabdem .visual-banner{background:linear-gradient(90deg,#d11631,#281724)}
+.case-visual.has-screenshot{background:#11191b}
+.case-visual.has-screenshot .visual-layout,
+.case-visual.has-screenshot .visual-watermark,
+.case-visual.has-screenshot .visual-code{display:none}
+.case-screenshot-img{display:block;position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center top;z-index:0}
+.case-visual.has-screenshot::after{z-index:1;background:linear-gradient(180deg,transparent 48%,#05090de8 100%)}
+.case-visual .visual-corner{z-index:2;text-shadow:0 2px 5px #000}
+.actual-shot-label{position:absolute;top:13px;right:17px;z-index:2;color:#afff39;font:800 8px/1.4 var(--tech);letter-spacing:1.4px;background:#080c0ce8;border:1px solid #6f9b3b;padding:6px 9px}
+.work-more-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+.work-more-grid article{border-top:2px solid #7c393f}
+.work-more-grid .more-tag{color:#ffb3b9;border-color:#8d3d46;background:#301217}
+.work-final-actions{display:flex;gap:10px;flex-wrap:wrap;justify-content:end;align-items:center}
+.work-final-actions .cyber-button{font-size:10px;min-height:44px}
+@media(max-width:920px){.work-final-actions{justify-content:start}}
+@media(max-width:760px){.work-more-grid{grid-template-columns:1fr}.work-final-actions,.work-final-actions .cyber-button{width:100%}}
+@media(max-width:540px){.actual-shot-label{font-size:7px;top:8px;right:8px}.portfolio-social{gap:12px}}
+
+/* Cabdem is a wide, fifth published case study, not an early-stage card. */
+@media(min-width:761px){
+  .case-cabdem{grid-column:1/-1;display:grid;grid-template-columns:minmax(0,.92fr) minmax(0,1.08fr)}
+  .case-cabdem .case-visual{height:auto;min-height:360px;border-bottom:0;border-right:1px solid #3b4c4d}
+  .case-cabdem .visual-layout{top:28%;height:44%;min-height:120px}
+  .case-cabdem .case-content{padding:34px 35px}
+}
+
+.work-project-count{color:var(--lime);font:800 10px/1.5 var(--tech);letter-spacing:1.3px;margin:0 0 13px}.work-project-count span{color:var(--red);margin:0 6px}

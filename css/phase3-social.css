@@ -1,0 +1,6 @@
+/* Phase 3: shared LinkedIn/footer and compact contact actions */
+.portfolio-social{display:inline-flex;gap:17px;align-items:center;flex-wrap:wrap}
+.portfolio-social a{white-space:nowrap}
+.contact-actions{gap:7px}
+.contact-actions .contact-button{min-height:38px}
+@media(max-width:540px){.portfolio-social{gap:12px}}
