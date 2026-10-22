@@ -7,11 +7,11 @@ It uses only HTML, CSS, JavaScript, local images, and optional Google Fonts. **N
 
 The published website can go online immediately **as an in-progress draft**. For your final school submission, finish:
 
-- [ ] Add at least one **real screenshot of TruckzSim** (the large truck image is labeled concept artwork)
+- [x] Add at least one **real screenshot of TruckzSim** (the large truck image is labeled concept artwork)
 - [x] Link directly to the verified TruckzSim GitHub repository
 - [ ] Record and link a demonstration video of TruckzSim running
-- [ ] Create and export your real résumé as `assets/student-resume.pdf`, then add a working link in the homepage
-- [ ] Confirm navigation/mobile display and all external links
+- [x] Create and export your real résumé as `assets/student-resume.pdf`, then add a working link in the homepage
+- [x] Confirm navigation/mobile display and all external links
 - [ ] Finish any other items in the course rubric
 
 The site now accurately describes the completed dispatch, fuel, HOS, maintenance, finance, and saved-company features.
@@ -48,6 +48,8 @@ The site now accurately describes the completed dispatch, fuel, HOS, maintenance
 
 ```text
 index.html             Homepage (required at repository root)
+truckzsim.html         Page all about the TruckzSim Project
+web-projects.html      Showcases all of my web design projects completed
 css/style.css          Colors and responsive styling
 js/main.js             Mobile menu and small interactions
 images/                Website images and graphics
