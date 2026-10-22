@@ -62,3 +62,20 @@
 }
 
 .work-project-count{color:var(--lime);font:800 10px/1.5 var(--tech);letter-spacing:1.3px;margin:0 0 13px}.work-project-count span{color:var(--red);margin:0 6px}
+
+/* REAL WEBSITE SCREENSHOTS */
+.case-visual {
+  position: relative;
+  overflow: hidden;
+}
+
+.case-visual .case-shot {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center top;
+  display: block;
+  z-index: 2;
+}
