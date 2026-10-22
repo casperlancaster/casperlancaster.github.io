@@ -13,8 +13,10 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700;800;900&family=Chakra+Petch:wght@400;500;600;700&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/phase3-social.css">
   <link rel="stylesheet" href="css/web-projects.css">
   <script src="js/main.js" defer></script>
+  <script src="js/web-work-shots.js" defer></script>
 </head>
 <body class="web-work-page">
   <a class="skip-link" href="#main">Skip to content</a>
@@ -47,6 +49,7 @@
           <p class="work-eyebrow"><span class="work-eyebrow-diamond" aria-hidden="true">◆</span> PORTFOLIO / FULL-STACK WEB DEVELOPMENT</p>
           <h1 id="work-title">REAL-WORLD<br><span>WEB</span> PROJECTS<span class="work-title-period">.</span></h1>
           <p class="work-hero-lead">More than a classroom project. Websites, business tools, and connected systems built to solve practical problems.</p>
+          <p class="work-project-count">5 PUBLISHED SITES <span aria-hidden="true">/</span> 2 PROJECTS IN DEVELOPMENT</p>
           <p class="work-hero-detail">My game development studies focus on C++, while my independent development work spans Python, Flask, databases, front-end interfaces, and operational workflows.</p>
           <div class="work-hero-actions">
             <a class="cyber-button red" href="#case-studies"><span>VIEW SELECTED WORK</span><span aria-hidden="true" class="button-arrow">↓</span></a>
@@ -78,12 +81,12 @@
 
       <section id="case-studies" class="work-section" aria-labelledby="case-title">
         <div class="work-section-heading">
-          <div><p class="eyebrow-small">PROJECT ARCHIVE // 001–004</p><h2 id="case-title">SELECTED <span>BUILDS.</span></h2></div>
-          <p>Selected work across commerce, communications, web services, and business websites. The graphics below are stylized illustrations, not screenshots of the live sites.</p>
+          <div><p class="eyebrow-small">PUBLISHED WORK // 001–005</p><h2 id="case-title">SELECTED <span>BUILDS.</span></h2></div>
+          <p>Five published websites and web applications. Actual public-site screenshots appear when captured; labeled illustrative previews remain until then.</p>
         </div>
         <div class="case-grid">
           <article class="case-card case-msr">
-            <div class="case-visual" aria-hidden="true">
+            <div class="case-visual" data-screenshot="images/web-projects/melssimplyreclaimed.png" data-screenshot-alt="Mel's Simply Reclaimed public homepage" aria-hidden="true">
               <div class="visual-code">&lt;/&gt; // COMMERCE SYSTEM</div>
               <div class="visual-layout"><div class="visual-menu"><span></span><span></span><span></span><span></span></div><div class="visual-main"><div class="visual-banner"></div><div class="visual-tiles"><span></span><span></span><span></span></div><div class="visual-lines"><i></i><i></i></div></div></div>
               <span class="visual-watermark">MSR</span><span class="visual-corner">01 / AUCTION + SHOP</span>
@@ -91,15 +94,15 @@
             <div class="case-content">
               <div class="case-meta"><span>01 / FEATURED WEB APPLICATION</span><span>AUCTIONS + E-COMMERCE</span></div>
               <h3>Mel's <span>Simply Reclaimed</span></h3>
-              <p class="case-summary">An online auction and storefront platform connecting timed bidding, customer shopping, inventory, invoicing, and owner operations.</p>
-              <ul class="case-highlights"><li>Weekly timed auctions with soft-close bidding</li><li>Simply Shop purchases and inventory workflows</li><li>Invoice, payment, fulfillment, and administrative tools</li></ul>
+              <p class="case-summary">I built and refined a Python/Flask auction and shopping platform where timed bidding, fixed-price purchases, fulfillment, and owner operations work together.</p>
+              <ul class="case-highlights"><li>Monday–Wednesday auctions with soft-close bidding</li><li>Unified auction and Simply Shop inventory</li><li>Invoice integrity checks, payment records, and fulfillment tools</li></ul>
               <div class="case-tech" aria-label="Technologies"><span>PYTHON</span><span>FLASK</span><span>POSTGRESQL</span><span>JAVASCRIPT</span></div>
               <div class="case-links"><a href="https://melssimplyreclaimed.com" target="_blank" rel="noopener noreferrer">VISIT WEBSITE <span aria-hidden="true">↗</span></a></div>
             </div>
           </article>
 
           <article class="case-card case-willows">
-            <div class="case-visual" aria-hidden="true">
+            <div class="case-visual" data-screenshot="images/web-projects/willowsmeltingpot.png" data-screenshot-alt="Willow's Melting Pot public homepage" aria-hidden="true">
               <div class="visual-code">&lt;/&gt; // CUSTOMER EXPERIENCE</div>
               <div class="visual-layout"><div class="visual-menu"><span></span><span></span><span></span><span></span></div><div class="visual-main"><div class="visual-banner"></div><div class="visual-tiles"><span></span><span></span><span></span></div><div class="visual-lines"><i></i><i></i></div></div></div>
               <span class="visual-watermark">WMP</span><span class="visual-corner">02 / SHOP + SMS</span>
@@ -107,15 +110,15 @@
             <div class="case-content">
               <div class="case-meta"><span>02 / COMMERCE + INTEGRATIONS</span><span>CUSTOMER COMMUNICATION</span></div>
               <h3>Willow's <span>Melting Pot</span></h3>
-              <p class="case-summary">Customer-facing shopping features supported by practical communication tools for staff and customers.</p>
-              <ul class="case-highlights"><li>Online storefront and order workflows</li><li>Twilio-powered two-way SMS communication</li><li>Staff notifications for customer chats and paid orders</li></ul>
+              <p class="case-summary">I worked on the store's e-commerce experience and connected customer messaging with operational alerts, so staff can respond to customers and track paid orders.</p>
+              <ul class="case-highlights"><li>Online shopping and order workflows</li><li>Two-way Twilio SMS with reply routing and consent controls</li><li>Configurable staff alerts for chats and paid orders</li></ul>
               <div class="case-tech" aria-label="Technologies"><span>WEB APPLICATION</span><span>TWILIO SMS</span><span>PYTHON</span><span>JAVASCRIPT</span></div>
               <div class="case-links"><a href="https://willowsmeltingpot.com" target="_blank" rel="noopener noreferrer">VISIT WEBSITE <span aria-hidden="true">↗</span></a></div>
             </div>
           </article>
 
           <article class="case-card case-truckweb">
-            <div class="case-visual" aria-hidden="true">
+            <div class="case-visual" data-screenshot="images/web-projects/truckzsim-web.png" data-screenshot-alt="TruckzSim web platform public homepage" aria-hidden="true">
               <div class="visual-code">&lt;/&gt; // WEB PLATFORM</div>
               <div class="visual-layout"><div class="visual-menu"><span></span><span></span><span></span><span></span></div><div class="visual-main"><div class="visual-banner"></div><div class="visual-tiles"><span></span><span></span><span></span></div><div class="visual-lines"><i></i><i></i></div></div></div>
               <span class="visual-watermark">TZ</span><span class="visual-corner">03 / CONNECTED SERVICES</span>
@@ -123,15 +126,15 @@
             <div class="case-content">
               <div class="case-meta"><span>03 / INDEPENDENT WEB PROJECT</span><span>WEB SERVICES + DATA</span></div>
               <h3>TruckzSim <span>Web Platform</span></h3>
-              <p class="case-summary">A separate Python-based web platform for TruckzSim's online services and data-driven tools, distinct from my Full Sail C++ coursework project.</p>
-              <ul class="case-highlights"><li>Database-backed application services</li><li>Hosted web operations and account-related workflows</li><li>Support email and branded communication tooling</li></ul>
+              <p class="case-summary">My independently developed Python/Flask trucking simulation website connects company operations, database-backed game systems, and support tools. It is separate from my Full Sail C++ application.</p>
+              <ul class="case-highlights"><li>Game systems for trucking company and fleet operations</li><li>PostgreSQL-backed services and hosting workflows</li><li>Branded support email and communication tools</li></ul>
               <div class="case-tech" aria-label="Technologies"><span>PYTHON</span><span>FLASK</span><span>POSTGRESQL</span><span>PYTHONANYWHERE</span></div>
               <div class="case-links"><a href="https://truckzsim.com" target="_blank" rel="noopener noreferrer">VISIT WEBSITE <span aria-hidden="true">↗</span></a><a href="truckzsim.html">VIEW C++ SHOWCASE <span aria-hidden="true">↗</span></a></div>
             </div>
           </article>
 
           <article class="case-card case-junes">
-            <div class="case-visual" aria-hidden="true">
+            <div class="case-visual" data-screenshot="images/web-projects/junescreations.png" data-screenshot-alt="June's Creations public homepage" aria-hidden="true">
               <div class="visual-code">&lt;/&gt; // BUSINESS WEBSITE</div>
               <div class="visual-layout"><div class="visual-menu"><span></span><span></span><span></span><span></span></div><div class="visual-main"><div class="visual-banner"></div><div class="visual-tiles"><span></span><span></span><span></span></div><div class="visual-lines"><i></i><i></i></div></div></div>
               <span class="visual-watermark">JC</span><span class="visual-corner">04 / WEB PRESENCE</span>
@@ -139,29 +142,47 @@
             <div class="case-content">
               <div class="case-meta"><span>04 / BUSINESS WEBSITE</span><span>BRAND + WEB DESIGN</span></div>
               <h3>June's <span>Creations</span></h3>
-              <p class="case-summary">A small-business website project focused on presenting a creative brand through a clear, customer-facing web experience.</p>
-              <ul class="case-highlights"><li>Business-oriented website presentation</li><li>Brand-focused content and navigation</li><li>Responsive front-end design work</li></ul>
-              <div class="case-tech" aria-label="Project areas"><span>WEB DESIGN</span><span>HTML / CSS</span><span>RESPONSIVE UI</span></div>
+              <p class="case-summary">I developed a brand-focused storefront for a creative small business, combining a customer-facing catalog with a foundation for managing products and site content.</p>
+              <ul class="case-highlights"><li>Product imagery, descriptions, and pricing</li><li>Owner-oriented catalog management features</li><li>Responsive custom storefront interface</li></ul>
+              <div class="case-tech" aria-label="Project areas"><span>PYTHON / FLASK</span><span>STORE FRONT</span><span>RESPONSIVE UI</span></div>
               <div class="case-links"><a href="https://junescreations-llc.com" target="_blank" rel="noopener noreferrer">VISIT WEBSITE <span aria-hidden="true">↗</span></a></div>
+            </div>
+          </article>
+
+          <article class="case-card case-cabdem">
+            <div class="case-visual" data-screenshot="images/web-projects/cabdemmarketing.png" data-screenshot-alt="Cabdem Marketing LLC public homepage">
+              <div class="visual-code">&lt;/&gt; // BUSINESS + DIGITAL SERVICES</div>
+              <div class="visual-layout"><div class="visual-menu"><span></span><span></span><span></span><span></span></div><div class="visual-main"><div class="visual-banner"></div><div class="visual-tiles"><span></span><span></span><span></span></div><div class="visual-lines"><i></i><i></i></div></div></div>
+              <span class="visual-watermark">CM</span><span class="visual-corner">05 / BUSINESS WEBSITE + PORTFOLIO</span>
+            </div>
+            <div class="case-content">
+              <div class="case-meta"><span>05 / PUBLISHED BUSINESS WEBSITE</span><span>WEB DEVELOPMENT + SERVICES</span></div>
+              <h3>Cabdem <span>Marketing LLC</span></h3>
+              <p class="case-summary">My independent web development business, with a published website presenting custom application services, work examples, service details, and ways for clients to get in touch.</p>
+              <ul class="case-highlights"><li>Custom service pages and project portfolio</li><li>Responsive business website and client inquiry paths</li><li>Python/Flask development and deployment work</li></ul>
+              <div class="case-tech" aria-label="Technologies"><span>PYTHON</span><span>FLASK</span><span>HTML / CSS</span><span>BUSINESS WEBSITE</span></div>
+              <div class="case-links"><a href="https://www.cabdemmarketing.com/" target="_blank" rel="noopener noreferrer">VISIT PUBLISHED WEBSITE <span aria-hidden="true">↗</span></a><a href="https://www.cabdemmarketing.com/portfolio" target="_blank" rel="noopener noreferrer">SEE CABDEM WORK <span aria-hidden="true">↗</span></a></div>
             </div>
           </article>
         </div>
       </section>
 
       <section class="work-more" aria-labelledby="more-title">
-        <div class="work-section-heading"><div><p class="eyebrow-small">OTHER WORK // EXPERIENCE &amp; CONCEPTS</p><h2 id="more-title">MORE IN THE <span>WORKSHOP.</span></h2></div><p>Additional business and client-related development work at different stages.</p></div>
+        <div class="work-section-heading">
+          <div><p class="eyebrow-small">IN DEVELOPMENT // PROJECTS 006–007</p><h2 id="more-title">NOT YET <span>LAUNCHED.</span></h2></div>
+          <p>These two projects are shown separately from the five published websites above. Their public launches have not been confirmed.</p>
+        </div>
         <div class="work-more-grid">
-          <article><span class="more-index">05 / DEVELOPMENT PRACTICE</span><h3>Cabdem Marketing LLC</h3><p>My independent development business, where I work on websites, application features, deployments, and ongoing improvements.</p><span class="more-tag">BUSINESS + CLIENT WORK</span></article>
-          <article><span class="more-index">06 / EARLY-STAGE CONCEPT</span><h3>Menus-To-Go</h3><p>Client website planning and promotional-site concept work. This project is presented as a concept, not a confirmed public launch.</p><span class="more-tag">CONCEPT / NOT LAUNCHED</span></article>
-          <article><span class="more-index">07 / WEB PROJECT</span><h3>Kloak &amp; Daggurrs</h3><p>Additional creative-brand website work within my broader web development portfolio.</p><span class="more-tag">CREATIVE WEB WORK</span></article>
+          <article><span class="more-index">06 / PLANNING + CONCEPT WORK</span><h3>Menus-To-Go</h3><p>A restaurant advertising website concept with a simplified promotional direction. Planning and prototype work are not the same as a public launch.</p><span class="more-tag">NOT YET LAUNCHED</span></article>
+          <article><span class="more-index">07 / CREATIVE WEB PROJECT</span><h3>Kloak &amp; Daggurrs</h3><p>A creative, game-inspired brand website project exploring immersive presentation and interactive content. Work in development; not listed as a published site.</p><span class="more-tag">NOT YET LAUNCHED</span></article>
         </div>
       </section>
 
       <section class="work-toolbelt" aria-labelledby="toolbelt-title"><div><p class="eyebrow-small">TOOLS &amp; APPROACH</p><h2 id="toolbelt-title">FROM IDEA TO <span>IMPLEMENTATION.</span></h2><p>These projects reflect hands-on experience connecting user interfaces, server-side logic, persistent data, and real operational requirements. The technologies vary by project.</p></div><div class="toolbelt-tags" aria-label="Technologies used across projects"><span>PYTHON</span><span>FLASK</span><span>POSTGRESQL</span><span>HTML</span><span>CSS</span><span>JAVASCRIPT</span><span>GIT / GITHUB</span><span>TWILIO</span><span>PYTHONANYWHERE</span></div></section>
 
-      <section class="work-final" aria-labelledby="work-final-title"><div><p class="eyebrow-small">TWO PATHS. ONE DEVELOPMENT MINDSET.</p><h2 id="work-final-title">WEB APPLICATIONS <span>AND GAME DEVELOPMENT.</span></h2><p>Want to see how the same problem-solving approach applies to my C++ trucking simulation?</p></div><a class="cyber-button red" href="truckzsim.html"><span>EXPLORE TRUCKZSIM C++</span><span aria-hidden="true" class="button-arrow">↗</span></a></section>
+      <section class="work-final" aria-labelledby="work-final-title"><div><p class="eyebrow-small">TWO PATHS. ONE DEVELOPMENT MINDSET.</p><h2 id="work-final-title">WEB APPLICATIONS <span>AND GAME DEVELOPMENT.</span></h2><p>Want to see how the same problem-solving approach applies to my C++ trucking simulation?</p></div><div class="work-final-actions"><a class="cyber-button red" href="truckzsim.html"><span>EXPLORE TRUCKZSIM C++</span><span aria-hidden="true" class="button-arrow">↗</span></a><a class="cyber-button green" href="https://www.linkedin.com/in/clayton-t-miller/" target="_blank" rel="me noopener noreferrer"><span>CONNECT ON LINKEDIN</span><span aria-hidden="true" class="button-arrow">↗</span></a></div></section>
     </div>
   </main>
-  <footer class="site-footer"><div class="site-shell footer-inner"><span class="footer-brand">CM<span>.</span> <small>CLAYTON MILLER</small></span><span>© <span id="year">2026</span> • BUILT WITH HTML, CSS &amp; JAVASCRIPT</span><a href="#top">BACK TO TOP ↑</a></div></footer>
+  <footer class="site-footer"><div class="site-shell footer-inner"><span class="footer-brand">CM<span>.</span> <small>CLAYTON MILLER</small></span><span>© <span id="year">2026</span> • BUILT WITH HTML, CSS &amp; JAVASCRIPT</span><span class="portfolio-social"><a href="https://www.linkedin.com/in/clayton-t-miller/" target="_blank" rel="me noopener noreferrer" aria-label="Clayton Miller on LinkedIn">LINKEDIN ↗</a><a href="#top">BACK TO TOP ↑</a></span></div></footer>
 </body>
 </html>
