@@ -151,3 +151,19 @@ h1,h2,h3,p,figure{margin-top:0}
 .project-source-link { margin: 14px 0 0; font-size: .78rem; font-weight: 800; letter-spacing: .06em; }
 .project-source-link a, .evidence-item a { color: var(--lime); text-decoration: underline; text-underline-offset: 3px; }
 .project-source-link a:hover, .evidence-item a:hover { color: #fff; }
+
+
+/* ---- PROFESSIONAL CONTACT ACTIONS ---- */
+.contact-actions {
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
+  margin-top: auto;
+}
+
+.contact-actions .contact-button {
+  margin-top: 0;
+  width: 100%;
+  max-width: none;
+  justify-content: center;
+}
